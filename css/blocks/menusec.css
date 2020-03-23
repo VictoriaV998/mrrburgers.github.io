@@ -1,0 +1,11 @@
+.burgermenu {
+  background: red;
+  background-size: cover;
+  position: relative;
+}
+
+.burgermenu__title {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}

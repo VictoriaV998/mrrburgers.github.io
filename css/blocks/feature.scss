@@ -1,0 +1,18 @@
+.feature {
+    text-align: center;
+  }
+  
+  .feature__img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .feature__title {
+    @include lifehack ();
+    font-size : 24px;
+  }
+
+  .feature__text {
+   @include ubuntu();
+   font-size :14px;
+  }

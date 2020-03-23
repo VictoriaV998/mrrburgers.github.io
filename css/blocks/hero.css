@@ -1,0 +1,5 @@
+.hero {
+  background: url("../img/herobg.jpg") center center/cover no-repeat;
+  color: #fff;
+  position: relative;
+}
