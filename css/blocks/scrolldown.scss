@@ -1,14 +1,13 @@
-.scroll-down {
+.scrolldown {
     position: absolute;
-    bottom: 40px;
+    background: url('../../img/arrow-scroll.svg');
+    bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
+    border: 0;
 }
 
-    
-   
-
-button:focus {
-    outline: none !important
-    }
+.scrolldown__icon {
+    border: 0;
+}
  

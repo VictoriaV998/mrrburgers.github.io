@@ -3,7 +3,8 @@
 	right: 0;
 	top: 0;
 	bottom: 0;
-	@extend %clearfix;
+	
+	
 }
 
 .menu-acco__item {
@@ -18,17 +19,15 @@
 }
 
 .menu-acco__trigger {
-	width: rem(80px);
+	width: 80px;
 	display: block;
-	height: 100%;
+	height: 100vh;
 	float: left;
-	@include cover;
+	
 	text-decoration: none;
   position: relative;
   
-  @include phones {
-    width: rem(50px);
-  }
+ 
 }
 
 .menu-acco__trigger-text {
@@ -44,17 +43,16 @@
   top: 100%;
   margin-top: rem(-20px);
 
-  @include phones {
-    font-size: rem(26px);
-  }
+  
 }
 
 .menu-acco__content {
-	height: 100%;
-	float: left;
-	background: rgba(#2f3234, .93);
-	width: 0;
-	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0%;
+	background: rgba(#2f3234, .35);
 }
 
 .menu-acco__text {

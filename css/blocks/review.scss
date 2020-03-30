@@ -7,9 +7,10 @@
       .review__hover {
         opacity: 1;
         transform: scale(1);
+        margin-bottom: 60 px;
       }
     }
-  }
+}
   
   .review__img-wrapper {
     position: absolute;
@@ -28,22 +29,31 @@
   
   .review__hover {
     position: absolute;
-    top: 90px;
+    top: 50px;
     left:20px;
     right: 33px; 
-    bottom: 102px;
+    bottom: 50px;
     opacity: 0;
     transform: scale(.8);
     transition: .3s;
   }
  
   .review__username {
-     @include gagalin();
-     
-     } 
-
- .review__content {
-     @include ubuntu();
+    color: #fff;
+    @include gagalin;
+    font-size:14px;
+    margin-bottom: 25px ;
    
-     }
+     
+  } 
+
+  .review__content {
+ 
+    color: #ffffff; 
+    font-size: 14px;
+    @include ubuntu;
+    margin-bottom: 13px;
+    
+  }  
+
       

@@ -1,24 +1,12 @@
 .team {
-	background: url("../img/teem.jpg") 50% no-repeat;
+	background: url('../img/bg/teambg.jpg') 50% no-repeat;
 	background-size: cover;
 	position: relative;
 
 	.section__title {
 		margin-bottom: 12%;
-	 }
+	}
 
-	
-
-		&:before {
-			content: "";
-			display: block;
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			background: rgba(#2f3234, .93);
-		}
 	
 }
 
@@ -31,4 +19,6 @@
 	background: rgba(#2f3234, .93);
 	padding: 5% 2% 0 7%;
 
+
+	
 }

@@ -1,8 +1,9 @@
 
+
 .team-acco__item {
   margin-bottom: rem(40px);
   
- 
+  
 
 	&:last-child {
 		margin-bottom: 0;
@@ -58,37 +59,7 @@
 	
 }
 
-.team-acco__content {
-	@extend %clearfix;
-	padding-top: rem(14px);
-	display: none;
 
-}
-
-.team-acco__pic {
-	text-align: center;
-	width: 30%;
-
-	
-}
-
-.team-acco__img {
-	@include inlineblock();
-	width: rem(100px);
-	height: rem(100px);
-	@include cover;
-	border-radius: 50%;
-}
-
-.team-acco__text {
-	width: 70%;
-}
-
-.team-acco__pic, .team-acco__text {
-	float: left;
-
-	
-}
 
 .team-acco__title {
 	@include ubuntu(bold);
@@ -102,3 +73,9 @@
 	color: #fff;
 	font-size: rem(14px);
 }
+.team-acco__content {
+	@extend .team-acco__content;
+	padding-top: rem(14px);
+	display: none;
+}
+ 
